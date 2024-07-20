@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(0, #120c56, #000000);
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+#stars, #stars2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.star, .star2 {
+    position: absolute;
+    border-radius: 50%;
+    background: white;
+}
+
+.star {
+    width: 2px;
+    height: 2px;
+    animation: anim-stars 10s linear infinite;
+}
+
+.star2 {
+    width: 1px;
+    height: 1px;
+    animation: anim-stars 15s linear infinite;
+}
+
+@keyframes anim-stars {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-1000px);
+  }
+}
+
+#ufo-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#ufo {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    transform: translateX(-50%);
+    width: 10vw;
+    max-width: 100px;
+    height: 5vw;
+    max-height: 50px;
+    background: linear-gradient(to bottom, #c0c0c0, #808080);
+    border-radius: 50% 50% 0 0;
+    transform-origin: 50% 50%;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+#ufo::before {
+    content: '';
+    position: absolute;
+    top: -13px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 6vw;
+    max-width: 60px;
+    height: 3vw;
+    max-height: 30px;
+    background: linear-gradient(to bottom, #e0e0e0, #a0a0a0);
+    border-radius: 50%;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.light {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1vw;
+    max-width: 10px;
+    height: 2vw;
+    max-height: 20px;
+    background: rgba(255, 255, 0, 0.8);
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(255, 255, 0, 0.8);
+    animation: blink 1s infinite;
+}
+
+.light:nth-child(2) {
+    left: 20%;
+    transform: translateX(-20%);
+    animation-delay: 0.3s;
+}
+
+.light:nth-child(3) {
+    left: 80%;
+    transform: translateX(-80%);
+    animation-delay: 0.6s;
+}
+
+@keyframes blink {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
