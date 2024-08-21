@@ -14,3 +14,8 @@ O script.js tenta reproduzir o som automaticamente, mas se o navegador bloquear 
 No fundo atrás do disco Voador tem um  céu estrelado com as estrelas se movimentando em loop infinito.
 
 Por fim este projeto usa as três linguagens: HTML,  CSS e JavaScript.
+
+**Demonstração**
+
+![Animação de Disco Voador](https://github.com/user-attachments/assets/ae12fb77-bc22-4f50-ace8-b6dd4e450684)
+
