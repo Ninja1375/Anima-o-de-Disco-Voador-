@@ -1,6 +1,6 @@
-**Veja o projeto ao vivo**
+**Veja o projeto ao vivo:**
 
-[Animação de Disco Voador:](https://ninja1375.github.io/Anima-o-de-Disco-Voador-/)
+[Animação de Disco Voador](https://ninja1375.github.io/Anima-o-de-Disco-Voador-/)
 
 
 Este projeto consiste em uma animação de um disco Voador.
@@ -15,7 +15,7 @@ No fundo atrás do disco Voador tem um  céu estrelado com as estrelas se movime
 
 Por fim este projeto usa as três linguagens: HTML,  CSS e JavaScript.
 
-**Demonstração**
+**Demonstração:**
 
 ![Animação de Disco Voador](https://github.com/user-attachments/assets/ae12fb77-bc22-4f50-ace8-b6dd4e450684)
 
